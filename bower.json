@@ -1,0 +1,22 @@
+{
+  "name": "ks-active-link",
+  "version": "0.1.0",
+  "authors": [
+    "Kyle Simukka <simook@gmail.com>"
+  ],
+  "description": "Angular Directive for Bootstrap Navigation. Checks the current value of $location and triggers active states on links.",
+  "main": "index.js",
+  "keywords": [
+    "bootstrap",
+    "angular",
+    "directive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
