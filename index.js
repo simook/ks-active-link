@@ -35,7 +35,7 @@
 
       scope.$on('$routeChangeSuccess', function(next, current) { 
         if(!current.$$route) { return false; }
-        _searchLocationPath(current.$$route.originalPath);
+        _searchCurrentLocationPath(current.$$route.originalPath);
       });
 
       function _searchCurrentLocationPath(location) {
@@ -63,7 +63,7 @@
       }
 
       function _activeView(location) {
-        var _parths = _splitPaths(scope.activeView);
+        var _paths = _splitPaths(scope.activeView);
 
         _paths.forEach(function(path){
           var result = location.search(path);
